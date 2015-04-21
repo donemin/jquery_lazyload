@@ -8,6 +8,10 @@
     "type": "git",
     "url": "git@github.com:tuupola/jquery_lazyload.git"
   },
+  "fork": {
+    "type": "git",
+	"url": "https://github.com/donemin/jquery_lazyload.git"
+  },
   "author": "Mika Tuupola <tuupola@appelsiini.net>",
   "scripts": {
     "test": "grunt test"

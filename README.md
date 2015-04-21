@@ -41,6 +41,9 @@ $ bower install jquery.lazyload
 $ npm install jquery-lazyload
 ```
 
+## Add
+
+jQuery lazyload 사용시 불러오려는 data-original의 이미지가 error를 낼때 data-error로 지정한 이미지를 에러이미지로 사용할 수 있도록 추가
 
 # License
 

@@ -127,6 +127,11 @@
                                 settings.load.call(self, elements_left, settings);
                             }
                         })
+						.bind("error", function() {
+							if ($self.data("error")) {
+								$self.attr("src", $self.data("error"));
+							}
+						})
                         .attr("src", $self.attr("data-" + settings.data_attribute));
                 }
             });
